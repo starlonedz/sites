@@ -7,4 +7,4 @@
     define("DATA", "$TMP_PATH"."data.txt");
     define("STATUS", "$TMP_PATH"."status.txt");
     define("INTENTO", "$TMP_PATH"."intento");
-?>
+?> 
