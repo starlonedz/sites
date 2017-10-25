@@ -99,7 +99,7 @@
 
 /* Top menu */
 #menu td.topleft {
-	background: url(/images/menu/topleft.gif) no-repeat left top;
+	background: url(../images/menu/topleft.gif) no-repeat left top;
 	margin: 0px;
 	padding: 0px;
 	width: 9px;
@@ -107,14 +107,14 @@
 }
 
 #menu td.top {
-	background: url(/images/menu/top.gif) repeat-x top;
+	background: url(../images/menu/top.gif) repeat-x top;
 	margin: 0px;
 	padding: 0px;
 	height: 8px;
 }
 
 #menu td.topright {
-	background: url(/images/menu/topright.gif) no-repeat right top;
+	background: url(../images/menu/topright.gif) no-repeat right top;
 	margin: 0px;
 	padding: 0px;
 	width: 10px;
@@ -124,7 +124,7 @@
 
 /* Cell content */
 #menu td.left {
-	background: url(/images/menu/left.gif) repeat-y left;
+	background: url(../images/menu/left.gif) repeat-y left;
 	margin: 0px;
 	padding: 0px;
 	width: 9px;
@@ -165,7 +165,7 @@
 }
 
 #menu td.right {
-	background: url(/images/menu/right.gif) repeat-y right;
+	background: url(../images/menu/right.gif) repeat-y right;
 	margin: 0px;
 	padding: 0px;
 	width: 10px;
@@ -175,7 +175,7 @@
 
 /* Line separator */
 #menu td.sepleft {
-	background: url(/images/menu/leftsep.gif) no-repeat left bottom;
+	background: url(../images/menu/leftsep.gif) no-repeat left bottom;
 	margin: 0px;
 	padding: 0px;
 	width: 9px;
@@ -183,14 +183,14 @@
 }
 
 #menu td.sep {
-	background: url(/images/menu/sep.gif) repeat-x bottom;
+	background: url(../images/menu/sep.gif) repeat-x bottom;
 	margin: 0px;
 	padding: 0px;
 	height: 1px;
 }
 
 #menu td.sepright {
-	background: url(/images/menu/rightsep.gif) no-repeat right bottom;
+	background: url(../images/menu/rightsep.gif) no-repeat right bottom;
 	margin: 0px;
 	padding: 0px;
 	width: 10px;
@@ -200,7 +200,7 @@
 
 /* Big line separator */
 #menu td.sepleftbig {
-	background: url(/images/menu/leftsepbig.gif) no-repeat left bottom;
+	background: url(../images/menu/leftsepbig.gif) no-repeat left bottom;
 	margin: 0px;
 	padding: 0px;
 	width: 9px;
@@ -208,7 +208,7 @@
 }
 
 #menu td.sepactbig {
-	background: url(/images/menu/sepbig.gif) repeat-x bottom;
+	background: url(../images/menu/sepbig.gif) repeat-x bottom;
 	margin: 0px;
 	padding: 0px;
 	height: 40px;
@@ -222,7 +222,7 @@
 
 /* Bottom menu */
 #menu td.bottomleft {
-	background: url(/images/menu/bottomleft.gif) no-repeat left bottom;
+	background: url(../images/menu/bottomleft.gif) no-repeat left bottom;
 	margin: 0px;
 	padding: 0px;
 	width: 9px;
@@ -230,14 +230,14 @@
 }
 
 #menu td.bottom {
-	background: url(/images/menu/bottom.gif) repeat-x bottom;
+	background: url(../images/menu/bottom.gif) repeat-x bottom;
 	margin: 0px;
 	padding: 0px;
 	height: 12px;
 }
 
 #menu td.bottomright {
-	background: url(/images/menu/bottomright.gif) no-repeat right bottom;
+	background: url(../images/menu/bottomright.gif) no-repeat right bottom;
 	margin: 0px;
 	padding: 0px;
 	width: 10px;

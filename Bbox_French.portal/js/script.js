@@ -17,52 +17,52 @@ attribution = 0;
 deldeviceid = -1;
 
 imgexpand = new Image();
-imgexpand.src = '/images/menu/expand.png';
+imgexpand.src = 'images/menu/expand.html';
 
 imgcollapse = new Image();
-imgcollapse.src = '/images/menu/collapse.png';
+imgcollapse.src = 'images/menu/collapse.html';
 
 imgarrowrightwhite = new Image();
-imgarrowrightwhite.src = '/images/menu/arrowrightwhite.png';
+imgarrowrightwhite.src = 'images/menu/arrowrightwhite.html';
 
 imgarrowrightorange = new Image();
-imgarrowrightorange.src = '/images/menu/arrowrightorange.png';
+imgarrowrightorange.src = 'images/menu/arrowrightorange.html';
 
 
 function SwitchMenu(id, sessionid)
 {
      if (id == 1)
-     	GoPage('index.cgi?page=home&sessionid=' + sessionid);
+     	GoPage('index1dab.html?page=home&amp;sessionid=' + sessionid);
      else if (id == 2)
-     	GoPage('index.cgi?page=game&sessionid=' + sessionid);
+     	GoPage('index5261.html?page=game&amp;sessionid=' + sessionid);
      else if (id == 3)
-     	GoPage('index.cgi?page=network&sessionid=' + sessionid);
+     	GoPage('indexa762.html?page=network&amp;sessionid=' + sessionid);
      else if (id == 4)
-     	GoPage('index.cgi?page=do_routeur_firewall&sessionid=' + sessionid);
+     	GoPage('indexb32c.html?page=do_routeur_firewall&amp;sessionid=' + sessionid);
      else if (id == 5)
-     	GoPage('index.cgi?page=do_wifi_general&sessionid=' + sessionid);
+     	GoPage('indexb6b8.html?page=do_wifi_general&amp;sessionid=' + sessionid);
      else if (id == 6)
-     	GoPage('index.cgi?page=do_device_disk&sessionid=' + sessionid);
+     	GoPage('index6a8b.html?page=do_device_disk&amp;sessionid=' + sessionid);
      else if (id == 7)
-     	GoPage('index.cgi?page=admin&sessionid=' + sessionid);
+     	GoPage('indexd17e.html?page=admin&amp;sessionid=' + sessionid);
      else if (id == 8)
-     	GoPage('index.cgi?page=do_assistance&sessionid=' + sessionid);
+     	GoPage('index426b.html?page=do_assistance&amp;sessionid=' + sessionid);
      else if (id == 9)
-     	GoPage('index.cgi?page=reinitiate&sessionid=' + sessionid);
+     	GoPage('indexfa24.html?page=reinitiate&amp;sessionid=' + sessionid);
 	else if (id == 10)
-		GoPage('index.cgi?page=do_routeur_dns&sessionid=' + sessionid);
+		GoPage('indexdc2b.html?page=do_routeur_dns&amp;sessionid=' + sessionid);
 	else if (id == 11)
-		GoPage('index.cgi?page=do_routeur_dhcp&sessionid=' + sessionid);
+		GoPage('index2b71.html?page=do_routeur_dhcp&amp;sessionid=' + sessionid);
 	else if (id == 12)
-		GoPage('index.cgi?page=do_routeur_natpat&sessionid=' + sessionid);
+		GoPage('index0027.html?page=do_routeur_natpat&amp;sessionid=' + sessionid);
 	else if (id == 13)
-		GoPage('index.cgi?page=do_routeur_dmz&sessionid=' + sessionid);
+		GoPage('indexfa0c.html?page=do_routeur_dmz&amp;sessionid=' + sessionid);
 	else if (id == 14)
-		GoPage('index.cgi?page=do_routeur_upnp&sessionid=' + sessionid);
+		GoPage('indexb7ce.html?page=do_routeur_upnp&amp;sessionid=' + sessionid);
 	else if (id == 15)
-		GoPage('index.cgi?page=do_wifi_security&sessionid=' + sessionid);
+		GoPage('indexdc81.html?page=do_wifi_security&amp;sessionid=' + sessionid);
 	else if (id == 16)
-		GoPage('index.cgi?page=do_wifi_mac&sessionid=' + sessionid);
+		GoPage('indexfc77.html?page=do_wifi_mac&amp;sessionid=' + sessionid);
 	
 }
 
@@ -80,7 +80,7 @@ function OpenHelp(help, sessionid)
     if (document.layers)
         options = 'scrollbars=yes,resizable=yes,outerWidth='+x+',outerHeight='+y+',screenX='+px+',screenY='+py;
 
-    window.open('index.cgi?page=help&help=' + help + '&sessionid=' + sessionid, 'HelpEmbedded', options);
+    window.open('indexbd5f.html?page=help&amp;help=' + help + '&sessionid=' + sessionid, 'HelpEmbedded', options);
 }
 
 

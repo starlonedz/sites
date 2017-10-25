@@ -19,7 +19,7 @@
 }
 
 #vignette div.enable {
-	background: url('/images/hardware/vignette_enable.gif') no-repeat;
+	background: url('../images/hardware/vignette_enable.gif') no-repeat;
 	margin: 0px;
 	padding: 0px;
 	width: 166px;
@@ -27,7 +27,7 @@
 }
 
 #vignette div.disable {
-	background: url('/images/hardware/vignette_disable.gif') no-repeat;
+	background: url('../images/hardware/vignette_disable.gif') no-repeat;
 	margin: 0px;
 	padding: 0px;
 	width: 166px;
@@ -81,7 +81,7 @@
 }
 
 #vignette td.equipement {
-	background: url('/images/hardware/round_bg.gif') no-repeat;
+	background: url('../images/hardware/round_bg.gif') no-repeat;
 	width: 75px;
 	text-align: center;
 	vertical-align: middle;
@@ -102,7 +102,7 @@
 #equipement_enable {
 	margin: 0px;
 	padding: 5px;
-	background: url('/images/hardware/equ_bg_enable.gif') no-repeat;
+	background: url('../images/hardware/equ_bg_enable.html') no-repeat;
 	width: 200px;
 	height: 100px;
 }

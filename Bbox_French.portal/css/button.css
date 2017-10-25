@@ -16,7 +16,7 @@
 }
 
 #button tr {
-	background:transparent url(/images/button/wifi.gif) no-repeat scroll right bottom;
+	background:transparent url(../images/button/wifi.html) no-repeat scroll right bottom;
 	font-weight:bold;
 	height:18px;
 }

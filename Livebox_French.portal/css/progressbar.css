@@ -1,5 +1,5 @@
 #progressbar {
-	background: url(/images/progressbar/background.gif) no-repeat;
+	background: url(../images/progressbar/background.html) no-repeat;
 	width: 410px;
 	height: 23px;
 	margin-left: 40px;
@@ -36,7 +36,7 @@
 }
 
 #progressbar td.pbleft {
-	background: url(/images/progressbar/foreground_left.gif) no-repeat;
+	background: url(../images/progressbar/foreground_left.html) no-repeat;
 	width: 6px;
 	height: 23px;
 }
@@ -58,7 +58,7 @@
 }
 
 #progressbar td.pbright {
-	background: url(/images/progressbar/foreground_right.gif) no-repeat;
+	background: url(../images/progressbar/foreground_right.html) no-repeat;
 	width: 6px;
 	height: 23px;
 }

@@ -32,7 +32,7 @@
 
 /* Top contener */
 #contener td.topleft {
-	background: url(/images/menu/topleft.gif) no-repeat left top;
+	background: url(../images/menu/topleft.gif) no-repeat left top;
 	margin: 0px;
 	padding: 0px;
 	width: 9px;
@@ -40,14 +40,14 @@
 }
 
 #contener td.top {
-	background: url(/images/menu/top.gif) repeat-x top;
+	background: url(../images/menu/top.gif) repeat-x top;
 	margin: 0px;
 	padding: 0px;
 	height: 8px;
 }
 
 #contener td.topright {
-	background: url(/images/menu/topright.gif) no-repeat right top;
+	background: url(../images/menu/topright.gif) no-repeat right top;
 	margin: 0px;
 	padding: 0px;
 	width: 10px;
@@ -64,7 +64,7 @@
 }
 
 #contener td.left {
-	background: url(/images/menu/left.gif) repeat-y left;
+	background: url(../images/menu/left.gif) repeat-y left;
 	margin: 0px;
 	padding: 0px;
 	width: 9px;
@@ -94,7 +94,7 @@
 }
 
 #contener td.right {
-	background: url(/images/menu/right.gif) repeat-y right;
+	background: url(../images/menu/right.gif) repeat-y right;
 	margin: 0px;
 	padding: 0px;
 	width: 10px;
@@ -104,7 +104,7 @@
 
 /* Title separator */
 #contener td.titlesepleft {
-	background: url(/images/contener/nosubnav_left.gif) no-repeat left top;
+	background: url(../images/contener/nosubnav_left.gif) no-repeat left top;
 	margin: 0px;
 	padding: 0px;
 	width: 9px;
@@ -112,14 +112,14 @@
 }
 
 #contener td.titlesep {
-	background: url(/images/contener/nosubnav_gradient.gif) repeat-x top;
+	background: url(../images/contener/nosubnav_gradient.gif) repeat-x top;
 	margin: 0px;
 	padding: 0px;
 	height: 17px;
 }
 
 #contener td.titlesepright {
-	background: url(/images/contener/nosubnav_right.gif) no-repeat right top;
+	background: url(../images/contener/nosubnav_right.gif) no-repeat right top;
 	margin: 0px;
 	padding: 0px;
 	width: 10px;
@@ -129,7 +129,7 @@
 
 /* Tabs panel */
 #contener td.panelleft {
-	background: url(/images/contener/subnav_left.gif) no-repeat left bottom;
+	background: url(../images/contener/subnav_left.gif) no-repeat left bottom;
 	margin: 0px;
 	padding: 0px;
 	width: 9px;
@@ -137,7 +137,7 @@
 }
 
 #contener td.panelcenter {
-	background: url(/images/contener/subnav_bargrey.gif) repeat-x bottom;
+	background: url(../images/contener/subnav_bargrey.gif) repeat-x bottom;
 	margin: 0px;
 	padding: 0px;
 	height: 22px;
@@ -175,7 +175,7 @@
 }
 
 #contener td.panelright {
-	background: url(/images/contener/subnav_right.gif) no-repeat right bottom;
+	background: url(../images/contener/subnav_right.gif) no-repeat right bottom;
 	margin: 0px;
 	padding: 0px;
 	width: 10px;
@@ -211,7 +211,7 @@
 
 /* White Line */
 #contener td.whiteleft {
-	background: url(/images/menu/left.gif) repeat-y left;
+	background: url(../images/menu/left.gif) repeat-y left;
 	margin: 0px;
 	padding: 0px;
 	width: 9px;
@@ -219,7 +219,7 @@
 }
 
 #contener td.whiteright {
-	background: url(/images/menu/right.gif) repeat-y right;
+	background: url(../images/menu/right.gif) repeat-y right;
 	margin: 0px;
 	padding: 0px;
 	width: 10px;
@@ -230,7 +230,7 @@
 
 /* Line separator */
 #contener td.sepleft {
-	background: url(/images/menu/leftsep.gif) no-repeat left bottom;
+	background: url(../images/menu/leftsep.gif) no-repeat left bottom;
 	margin: 0px;
 	padding: 0px;
 	width: 9px;
@@ -238,14 +238,14 @@
 }
 
 #contener td.sep {
-	background: url(/images/menu/sep.gif) repeat-x bottom;
+	background: url(../images/menu/sep.gif) repeat-x bottom;
 	margin: 0px;
 	padding: 0px;
 	height: 1px;
 }
 
 #contener td.sepright {
-	background: url(/images/menu/rightsep.gif) no-repeat right bottom;
+	background: url(../images/menu/rightsep.gif) no-repeat right bottom;
 	margin: 0px;
 	padding: 0px;
 	width: 10px;
@@ -255,7 +255,7 @@
 
 /* Bottom page */
 #contener td.bottomleft {
-	background: url(/images/menu/bottomleft.gif) no-repeat left bottom;
+	background: url(../images/menu/bottomleft.gif) no-repeat left bottom;
 	margin: 0px;
 	padding: 0px;
 	width: 9px;
@@ -263,14 +263,14 @@
 }
 
 #contener td.bottom {
-	background: url(/images/menu/bottom.gif) repeat-x bottom;
+	background: url(../images/menu/bottom.gif) repeat-x bottom;
 	margin: 0px;
 	padding: 0px;
 	height: 12px;
 }
 
 #contener td.bottomright {
-	background: url(/images/menu/bottomright.gif) no-repeat right bottom;
+	background: url(../images/menu/bottomright.gif) no-repeat right bottom;
 	margin: 0px;
 	padding: 0px;
 	width: 10px;

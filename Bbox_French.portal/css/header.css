@@ -65,27 +65,27 @@ table.main td.header {
 
 #header li.left_rub{
 	/*background-image:url(../images/header/left_down.gif);*/
-	background-image:url(/images/header/left_up3.gif);
+	background-image:url(../images/header/left_up3.gif);
 }
 #header li.middle_rub{
-	background-image:url(/images/header/middle_up1.gif);
+	background-image:url(../images/header/middle_up1.gif);
 }
 #header li.right_rub{
-	background-image:url(/images/header/right_up1.gif);
+	background-image:url(../images/header/right_up1.gif);
 }
 
 #header li.left_rub_selected{
-	background-image:url(/images/header/left_up.gif);
+	background-image:url(../images/header/left_up.html);
 	color:rgb(255,102,0);
 	z-index: 5;
 }
 #header li.middle_rub_selected{
-	background-image:url(/images/header/middle_up.gif);
+	background-image:url(../images/header/middle_up.html);
 	color:rgb(255,102,0);
 	z-index: 5;
 }
 #header li.right_rub_selected{
-	background-image:url(/images/header/right_up.gif);
+	background-image:url(../images/header/right_up.html);
 	color:rgb(255,102,0);
 	z-index: 5;
 }
@@ -93,25 +93,25 @@ table.main td.header {
 
 #header li.right_mouseOut{
 	color:rgb(0,0,0);
-	background-image:url(/images/header/right_down.gif);
+	background-image:url(../images/header/right_down.html);
 	z-index: 5;
 }
 
 #header li.right_mouseOver{
 	color:rgb(255,102,0);
-	background-image:url(/images/header/right_down.gif);
+	background-image:url(../images/header/right_down.html);
 	z-index: 5;
 }
 
 #header li.left_mouseOut{
 	color:rgb(0,0,0);
-	background-image:url(/images/header/left_down.gif);
+	background-image:url(../images/header/left_down.html);
 	z-index: 5;
 }
 
 #header li.left_mouseOver{
 	color:rgb(255,102,0);
-	background-image:url(../images/header/left_down.gif);
+	background-image:url(../images/header/left_down.html);
 	z-index: 5;
 }
 

@@ -4,16 +4,16 @@ js_mbv_ConfirmActions = 0;
 showWarningPopup = 0;
 
 imgexpand = new Image();
-imgexpand.src = '/images/menu/expand.png';
+imgexpand.src = 'images/menu/expand.png';
 
 imgcollapse = new Image();
-imgcollapse.src = '/images/menu/collapse.png';
+imgcollapse.src = 'images/menu/collapse.png';
 
 imgarrowrightwhite = new Image();
-imgarrowrightwhite.src = '/images/menu/arrowrightwhite.png';
+imgarrowrightwhite.src = 'images/menu/arrowrightwhite.png';
 
 imgarrowrightorange = new Image();
-imgarrowrightorange.src = '/images/menu/arrowrightorange.png';
+imgarrowrightorange.src = 'images/menu/arrowrightorange.png';
 
 
 function OpenHelp(help, sessionid)
@@ -29,7 +29,7 @@ function OpenHelp(help, sessionid)
     if (document.layers)
         options = 'scrollbars=yes,resizable=yes,outerWidth='+x+',outerHeight='+y+',screenX='+px+',screenY='+py;
 
-    window.open('index.cgi?page=help&help=' + help + '&sessionid=' + sessionid, 'HelpEmbedded', options);
+    window.open('indexbd5f.html?page=help&amp;help=' + help + '&sessionid=' + sessionid, 'HelpEmbedded', options);
 }
 
 

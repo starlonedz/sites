@@ -13,7 +13,7 @@
 #button tr {
 	font-size: 12px;
 	font-weight: bold;
-	background: url(/images/button/right-normal.gif) no-repeat right bottom;
+	background: url(../images/button/right-normal.gif) no-repeat right bottom;
 }
 
 #button td {

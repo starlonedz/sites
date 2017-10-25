@@ -222,7 +222,7 @@ table.timemap {
 	width: 275px;
 	height: 126px;
 	border-collapse: collapse;
-	background-image: url(/images/timezonemap.gif);
+	background-image: url(../images/timezonemap.html);
 	background-repeat: none;
 	margin-top: 5px;
 	margin-left: 104px;

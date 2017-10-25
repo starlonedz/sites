@@ -51,7 +51,7 @@ table.separator {
 }
 
 table.separator td.separator {
-	background-image: url(/images/home/sep.gif);
+	background-image: url(../images/home/sep.html);
 	background-repeat: repeat-x;
 	height: 1px;
 }
@@ -245,7 +245,7 @@ table.timemap {
 	width: 275px;
 	height: 126px;
 	border-collapse: collapse;
-	background-image: url(/images/timezonemap.gif);
+	background-image: url(../images/timezonemap.html);
 	background-repeat: none;
 	margin-top: 5px;
 	margin-left: 127px;

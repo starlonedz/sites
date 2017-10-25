@@ -247,7 +247,7 @@ function binl2hex(binarray)
  */
 function binl2b64(binarray)
 {
-  var tab = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
+  var tab = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789%2b/index.html";
   var str = "";
   for(var i = 0; i < binarray.length * 4; i += 3)
   {

@@ -16,7 +16,7 @@
 
 /* Top contener */
 #subcontener td.topleft {
-	background: url(/images/frames/topleft.gif) no-repeat left top;
+	background: url(../images/frames/topleft.gif) no-repeat left top;
 	margin: 0px;
 	padding: 0px;
 	width: 5px;
@@ -24,14 +24,14 @@
 }
 
 #subcontener td.top {
-	background: url(/images/frames/border.gif) repeat-x top;
+	background: url(../images/frames/border.gif) repeat-x top;
 	margin: 0px;
 	padding: 0px;
 	height: 5px;
 }
 
 #subcontener td.topright {
-	background: url(/images/frames/topright.gif) no-repeat right top;
+	background: url(../images/frames/topright.gif) no-repeat right top;
 	margin: 0px;
 	padding: 0px;
 	width: 5px;
@@ -41,7 +41,7 @@
 
 /* Cell content : The page */
 #subcontener td.left {
-	background: url(/images/frames/border.gif) repeat-y left;
+	background: url(../images/frames/border.gif) repeat-y left;
 	margin: 0px;
 	padding: 0px;
 	width: 5px;
@@ -51,7 +51,7 @@
 }
 
 #subcontener td.right {
-	background: url(/images/frames/border.gif) repeat-y right;
+	background: url(../images/frames/border.gif) repeat-y right;
 	margin: 0px;
 	padding: 0px;
 	width: 5px;
@@ -60,7 +60,7 @@
 
 /* Bottom page */
 #subcontener td.bottomleft {
-	background: url(/images/frames/bottomleft.gif) no-repeat left bottom;
+	background: url(../images/frames/bottomleft.gif) no-repeat left bottom;
 	margin: 0px;
 	padding: 0px;
 	width: 5px;
@@ -68,14 +68,14 @@
 }
 
 #subcontener td.bottom {
-	background: url(/images/frames/border.gif) repeat-x bottom;
+	background: url(../images/frames/border.gif) repeat-x bottom;
 	margin: 0px;
 	padding: 0px;
 	height: 5px;
 }
 
 #subcontener td.bottomright {
-	background: url(/images/frames/bottomright.gif) no-repeat right bottom;
+	background: url(../images/frames/bottomright.gif) no-repeat right bottom;
 	margin: 0px;
 	padding: 0px;
 	width: 5px;
